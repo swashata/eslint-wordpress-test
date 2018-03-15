@@ -24,37 +24,8 @@
   "dependencies": {},
   "devDependencies": {
     "eslint": "^4.18.2",
-    "eslint-config-wordpress": "^2.0.0"
-  },
-  "eslintConfig": {
-    "env": {
-      "browser": true,
-      "es6": true
-    },
-    "extends": "wordpress",
-    "parserOptions": {
-      "ecmaFeatures": {
-        "experimentalObjectRestSpread": true
-      },
-      "sourceType": "module"
-    },
-    "rules": {
-      "indent": [
-        "error",
-        "tab"
-      ],
-      "linebreak-style": [
-        "error",
-        "unix"
-      ],
-      "quotes": [
-        "error",
-        "single"
-      ],
-      "semi": [
-        "error",
-        "always"
-      ]
-    }
+    "eslint-config-wordpress": "^2.0.0",
+    "eslint-plugin-html": "^4.0.2",
+    "eslint-plugin-react": "^7.7.0"
   }
 }

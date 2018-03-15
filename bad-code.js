@@ -1,4 +1,4 @@
-var myVar = [ 'I', 'am', 'array' ];
-for (const i of myVar ) {
-	console.log( myVar[i]);
+const myArr = [ 'I', 'am', 'wrong' ];
+for ( const [ index, item ] of myArr.entries() ) {
+	console.log( index, item );
 }
